@@ -1,0 +1,49 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.bg-con {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.speedometer {
+  color: white;
+}
+.heading2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.img {
+  height: 20rem;
+  width: 40rem;
+}
+.description {
+  color: white;
+  font-size: 10px;
+}
+.btn-con {
+  margin-top: 13px;
+}
+.button-accelerate {
+  background-color: #0b69ff;
+  color: white;
+  margin-right: 10px;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 6px;
+}
+.button-break {
+  background-color: #07080c;
+  color: #ffffff;
+  margin-right: 10px;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+}
